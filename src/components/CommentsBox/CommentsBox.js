@@ -1,7 +1,7 @@
-import {CommentsForm} from "../CommentsForm/CommentsForm";
-import {Comments} from "../Comments/Comments";
 import {useEffect, useState} from "react";
 import {commentService} from "../../services/commentService";
+import {Comments} from "../Comments/Comments";
+import {CommentsForm} from "../CommentsForm/CommentsForm";
 
 const CommentsBox = () => {
     const [comments,setComments] = useState([])
@@ -12,7 +12,7 @@ const CommentsBox = () => {
 
     return (
     <div>
-            <CommentsForm/>
+            <CommentsForm setComments={setComments}/>
             <hr/>
             <Comments comments={comments}/>
         </div>
