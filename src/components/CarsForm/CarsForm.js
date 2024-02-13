@@ -4,7 +4,7 @@ import {joiResolver} from "@hookform/resolvers/joi";
 import {carValidator} from "../../validators/carValidator";
 import {useEffect} from "react";
 
-const CarsForm = ({setTrigger,carForUpdate,setCarForUpdate,carForDelete,setCarForDelete}) => {
+const CarsForm = ({setTrigger,carForUpdate,setCarForUpdate}) => {
 
     const {reset,register,handleSubmit,formState:{isValid,errors},setValue} =useForm({
         mode:'all',
