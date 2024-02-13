@@ -1,4 +1,3 @@
-import {useEffect} from "react";
 
 const Car = ({car,setCarForUpdate,deleteFunction}) => {
     const {id,brand,price,year}=car;
