@@ -1,0 +1,17 @@
+.Header{
+    background: salmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Header a{
+    margin: 10px;
+    font-size: 32px;
+    text-decoration: none;
+    color: beige;
+    transition: all 0.23s ease;
+}
+.Header a:hover{
+    color: #f8f86e;
+    transition: all 0.23s ease;
+}
