@@ -1,0 +1,6 @@
+.PostDetailsBox{
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 2px;
+}
