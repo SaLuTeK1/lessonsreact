@@ -5,7 +5,6 @@ import {useAppContext} from "../../hooks";
 const Header = () => {
 
     const value = useAppContext();
-    console.log(value)
 
     return (
         <div className={css.Header}>
