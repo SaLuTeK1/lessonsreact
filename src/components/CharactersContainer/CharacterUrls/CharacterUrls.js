@@ -11,7 +11,7 @@ const CharacterUrls = ({characterUrl}) => {
     const [character, setCharacter] = useState([])
     useEffect(() => {
         characterService.getById(id).then(({data})=>setCharacter(data))
-    });
+    },[]);
 
     return (
         <div className={css.CharactersUrlBox}>
