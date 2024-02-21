@@ -1,0 +1,6 @@
+.EpisodeBox{
+    width: 450px;
+    box-sizing: border-box;
+    border: 1px black solid;
+    padding: 5px;
+}

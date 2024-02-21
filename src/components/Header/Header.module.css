@@ -1,0 +1,8 @@
+.Header{
+    background: black;
+    color: white;
+    text-align: center;
+}
+.Header h1,h3{
+    margin: 0;
+}

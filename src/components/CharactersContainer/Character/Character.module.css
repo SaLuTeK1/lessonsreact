@@ -1,0 +1,9 @@
+.CharacterBox{
+    width: 304px;
+    border: 1px solid black;
+    margin: 10px;
+}
+.CharacterBox img{
+    margin: 2px;
+    border-radius: 15px;
+}

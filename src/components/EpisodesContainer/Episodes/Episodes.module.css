@@ -1,0 +1,29 @@
+.EpisodesBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    border: 1px black solid;
+    box-sizing: border-box;
+    margin: 0 20px;
+    padding: 10px;
+}
+.MainBox{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.Buttons{
+    background: salmon;
+    color: blanchedalmond;
+    border: 1px solid black;
+    width: 60px;
+    height: 40px;
+    margin: 10px;
+    cursor: pointer;
+}
+.Buttons:disabled{
+    background: #604847;
+    cursor: default;
+}
