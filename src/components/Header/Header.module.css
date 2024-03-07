@@ -1,0 +1,23 @@
+.Header{
+    height: 100px;
+    background: black;
+}
+h1{
+    color: white;
+    font-size: 60px;
+}
+h3{
+    color: white;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttonAndText{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
